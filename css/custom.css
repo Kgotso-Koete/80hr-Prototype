@@ -1,0 +1,41 @@
+.smart-phone-wrapper {
+  margin: 30px;
+}
+
+.smartphone {
+  position: relative;
+  width: 392px;
+  height: 762px;
+  margin: auto;
+  border: 16px black solid;
+  border-top-width: 60px;
+  border-bottom-width: 60px;
+  border-radius: 36px;
+}
+
+.smartphone .content {
+  width: 360px;
+  height: 640px;
+  background: white;
+}
+
+.large-screen-wrapper {
+  margin: 30px;
+}
+
+.large-screen {
+  position: relative;
+  width: 1056px;
+  height: 890px;
+  margin: auto;
+  border: 16px black solid;
+  border-top-width: 60px;
+  border-bottom-width: 60px;
+  border-radius: 36px;
+}
+
+.large-screen .content {
+  width: 1024px;
+  height: 768px;
+  background: white;
+}
