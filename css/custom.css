@@ -40,6 +40,43 @@
   background: white;
 }
 
-.call-to-action {
+.call-to-action,
+.contact-email {
   color: #51b065;
+}
+
+.embed-in-small-screen {
+  height: 768px;
+}
+
+@media only screen and (max-width: 767px) {
+  .big-screen-demos {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 767px) {
+  .small-screen-demos {
+    display: none;
+  }
+}
+
+.contact-section {
+  width: 100%;
+  margin: auto;
+  overflow: auto;
+  display: flex;
+}
+
+.section-title {
+  display: block;
+  flex: 1;
+  margin: 0;
+}
+
+.contact-email {
+  word-wrap: break-word;
+  display: block;
+  flex: 1;
+  margin: 0;
 }
