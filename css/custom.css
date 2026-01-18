@@ -132,3 +132,28 @@
   flex: 1;
   margin: 0;
 }
+
+/* New Hover & Transition Effects */
+.hover-zoom {
+  transition: transform 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+.hover-zoom:hover {
+  transform: scale(1.05);
+}
+
+.transition-up {
+  transition:
+    transform 0.3s ease-in-out,
+    box-shadow 0.3s ease-in-out;
+}
+
+.transition-up:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175) !important;
+}
+
+.font-weight-bold {
+  font-weight: 700 !important;
+}
